@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/livewire-livewire",
+    "description": "Tyhp type definitions for livewire/livewire 4.4.5.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "4.4.5",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/livewire-livewire-impl": "~4.4.5.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/livewire-livewire-impl"
+        }
+    }
+}
